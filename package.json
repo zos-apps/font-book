@@ -1,0 +1,103 @@
+{
+  "name": "@zos-apps/font-book",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.font-book",
+    "name": "Font Book",
+    "icon": "🔤",
+    "category": "utilities",
+    "description": "Preview and manage system fonts",
+    "permissions": [],
+    "window": {
+      "defaultSize": {
+        "width": 800,
+        "height": 600
+      },
+      "resizable": true
+    },
+    "featured": false,
+    "tags": [
+      "fonts",
+      "typography",
+      "design"
+    ],
+    "about": "Preview, install, and manage fonts on your system.",
+    "help": [
+      "Browse installed fonts",
+      "Preview with sample text",
+      "Install new fonts"
+    ],
+    "docs": "https://zos-apps.github.io/font-book",
+    "site": "https://github.com/zos-apps/font-book",
+    "features": [
+      "Font preview",
+      "Font installation",
+      "Collections",
+      "Font validation",
+      "Duplicate detection"
+    ],
+    "shortcuts": [
+      "⌘I Install font",
+      "⌘Delete Remove font"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/font-book"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/font-book/issues",
+    "changelog": "https://github.com/zos-apps/font-book/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Preview and manage system fonts",
+  "homepage": "https://zos-apps.github.io/font-book",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/font-book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/font-book/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "font-book",
+    "fonts",
+    "typography",
+    "design"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
