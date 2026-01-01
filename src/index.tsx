@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const SAMPLE_FONTS = [
   'Arial', 'Helvetica', 'Times New Roman', 'Georgia', 'Verdana',
